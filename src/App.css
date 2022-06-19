@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+.practiceCard{
+    width:500px;
+    padding:35px;
+    text-align: left;
+    margin:auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title{
+  font-size: 13px;
+  font-family: 'BentonSans', sans-serif;
+  color:rgb(143, 18, 18);
+  border-bottom: 5px solid black;
+  padding:10px 0;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sevenColumns {
+    padding:8px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.name{
+    color:rgb(40, 40, 207);
+    padding:8px 0;
+    font-weight: bold;
+}
+.text{
+    font-family: 'BentonSans', sans-serif;
+    padding:5px 0;
 }
 
-.App-link {
-  color: #61dafb;
+.image *{
+   border-radius: 150px;
+   width:70px;
+   position:relative; 
+   left:400px; 
+   top:-70px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pro1, .pro2, .pro3, .pro4, .pro5, .pro6{
+    border-bottom: 1px solid black;
+    padding-top: 5px;  
+    height:100px
+}
+
+.pro5 .image{
+    border-radius: 150px;
+    width:70px;
+    position:relative;  
+    top: 15px
+}
+
+.pro6 .image{
+    border-radius: 150px;
+    width:70px;
+    position:relative;  
+    top: 15px
 }
